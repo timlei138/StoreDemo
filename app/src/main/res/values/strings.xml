@@ -11,5 +11,11 @@
 
     <string name="action_install">安装</string>
     <string name="action_open">Open</string>
+    <string name="label_app_desc">关于此应用</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_app_details">AppDetailsActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

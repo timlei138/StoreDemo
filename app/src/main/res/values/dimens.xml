@@ -5,4 +5,6 @@
 
     <dimen name="gallery_item_width">440dp</dimen>
     <dimen name="gallery_item_height">200dp</dimen>
+
+    <dimen name="app_detail_padding">120dp</dimen>
 </resources>

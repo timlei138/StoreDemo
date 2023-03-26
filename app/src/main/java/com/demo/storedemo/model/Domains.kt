@@ -1,6 +1,7 @@
 package com.demo.storedemo.model
 
 import android.os.Parcelable
+import androidx.room.Entity
 import androidx.versionedparcelable.ParcelField
 import kotlinx.parcelize.Parcelize
 
@@ -11,6 +12,8 @@ data class ListJsonResult(
     val status: Int
 )
 
+
+@Entity
 @Parcelize
 data class AppInfo (
     val category: String,

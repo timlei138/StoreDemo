@@ -152,6 +152,8 @@ class AppItemAdapter(val apps: List<CategoryInfo>,val layoutManager: LinearLayou
 
             val showApps = if (apps.size > 20) apps.subList(0,20) else apps
 
+            appLayout.removeAllViews()
+
             showApps.forEach { app ->
                 val itemView = LayoutInflater.from(itemView.context).inflate(R.layout.layout_horization_app_item,null,false)
                 val params = LinearLayout.LayoutParams(
